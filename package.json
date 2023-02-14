@@ -1,0 +1,15 @@
+{
+    "name": "openai-test",
+    "main": "index.ts",
+    "scripts": {
+      "package": "rm -rf dist && mkdir -p dist/ && cp -r src/common dist/ && cp -r src/data dist/ && cp -r src/chat.py dist/ && python3.9 -m pip install -r src/requirements.txt -t dist/"
+  } ,
+    "devDependencies": {
+        "@types/node": "^16"
+    },
+    "dependencies": {
+        "@pulumi/pulumi": "^3.0.0",
+        "@pulumi/aws": "^5.0.0",
+        "@pulumi/awsx": "^1.0.0"
+    }
+}

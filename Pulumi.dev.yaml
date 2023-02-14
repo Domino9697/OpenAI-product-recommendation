@@ -1,0 +1,4 @@
+config:
+  aws:region: eu-west-1
+  openai-test:openai-api-key:
+    secure: AAABAA+GOQDK+pdehgC+v/2jopJNY0wI5AHPgPpcDUZpDzsE+A7JrEGJDOb14X1yuCzIRXDEzZSonvYaT52p3W600pNBxvYF04eSSQjxKzGWLMo=

@@ -1,0 +1,3 @@
+name: openai-test
+runtime: nodejs
+description: Open AI test
